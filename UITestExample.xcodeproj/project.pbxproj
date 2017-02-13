@@ -14,6 +14,7 @@
 		048EEA3F1E51520E001461A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048EEA3D1E51520E001461A2 /* LaunchScreen.storyboard */; };
 		048EEA4A1E51520E001461A2 /* UITestExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048EEA491E51520E001461A2 /* UITestExampleTests.swift */; };
 		048EEA551E51520E001461A2 /* UITestExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048EEA541E51520E001461A2 /* UITestExampleUITests.swift */; };
+		04DC484E1E5169590035C964 /* OHHTTPStubsSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DC484D1E5169590035C964 /* OHHTTPStubsSwift.swift */; };
 		4F21B59705BBF459536C8140 /* Pods_UITestExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A42E5098FEC2963A9C5CDD71 /* Pods_UITestExample.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,7 @@
 		048EEA501E51520E001461A2 /* UITestExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITestExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		048EEA541E51520E001461A2 /* UITestExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestExampleUITests.swift; sourceTree = "<group>"; };
 		048EEA561E51520E001461A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04DC484D1E5169590035C964 /* OHHTTPStubsSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OHHTTPStubsSwift.swift; sourceTree = "<group>"; };
 		5CBB4CA19348A7025B4546B2 /* Pods-UITestExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITestExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UITestExample/Pods-UITestExample.debug.xcconfig"; sourceTree = "<group>"; };
 		9923A83CFD9D79377D1BFC0E /* Pods-UITestExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITestExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-UITestExample/Pods-UITestExample.release.xcconfig"; sourceTree = "<group>"; };
 		A42E5098FEC2963A9C5CDD71 /* Pods_UITestExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UITestExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,6 +112,7 @@
 				048EEA3B1E51520E001461A2 /* Assets.xcassets */,
 				048EEA3D1E51520E001461A2 /* LaunchScreen.storyboard */,
 				048EEA401E51520E001461A2 /* Info.plist */,
+				04DC484D1E5169590035C964 /* OHHTTPStubsSwift.swift */,
 			);
 			path = UITestExample;
 			sourceTree = "<group>";
@@ -337,6 +340,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04DC484E1E5169590035C964 /* OHHTTPStubsSwift.swift in Sources */,
 				048EEA371E51520E001461A2 /* ViewController.swift in Sources */,
 				048EEA351E51520E001461A2 /* AppDelegate.swift in Sources */,
 			);
@@ -589,6 +593,7 @@
 				048EEA5B1E51520E001461A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		048EEA5C1E51520E001461A2 /* Build configuration list for PBXNativeTarget "UITestExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -597,6 +602,7 @@
 				048EEA5E1E51520E001461A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		048EEA5F1E51520E001461A2 /* Build configuration list for PBXNativeTarget "UITestExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -605,6 +611,7 @@
 				048EEA611E51520E001461A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
